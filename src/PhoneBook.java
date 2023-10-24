@@ -37,7 +37,11 @@ public class PhoneBook {
         for (int i=0; i<currentIndex; i++){
             Contact contact = this.contactArray[i];
             System.out.println(contact.getFirst()  + " " + contact.getLast());
-        }
+                }
+    }
 
+    public String first (){
+        Contact contact = this.contactArray[0];
+        return contact.toString();
     }
 }

@@ -13,6 +13,8 @@ public class Main {
         phoneBook.add("D", "Valiyev", "23242"); 
 
 
-        phoneBook.show();
+       // phoneBook.show();
+
+        System.out.println(phoneBook.first());
     }
 }

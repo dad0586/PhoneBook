@@ -35,4 +35,9 @@ public class Contact {
     public void setNumber(String number) {
         this.number = number;
     }
+
+    @Override
+    public String toString() {
+        return this.first + " "+ this.last +" "+ this.number;
+    }
 }
